@@ -1,7 +1,7 @@
 const Employee = require('../lib/Employee')
 
 
-test('Tests if we can set an employee name', () => {
+test('Tests if we can set employee information', () => {
     const employee = new Employee('Brady', 7471, 'tcobrady@amazon.com')
     expect(employee.name).toBe('Brady');
     expect(employee.id).toBe(7471);
