@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/bradyc96/Team-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "inquirer-loop": "^0.3.0"
   },
   "devDependencies": {
     "jest": "^29.4.1"

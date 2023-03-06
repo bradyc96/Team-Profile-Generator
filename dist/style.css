@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#navbar {
+    background-color: red;
+    color: white;
+    font-size: 50px;
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
+
+.card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.card-body {
+    background-color: var(--secondary);
+    color: white;
+    padding: 4rem;
+}
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
